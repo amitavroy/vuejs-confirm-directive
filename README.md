@@ -9,12 +9,12 @@ There exist a lot of components which gives you buttons but why should we restri
 ## Installation
 #### using NPM:
 ```js
-
+npm i vuejs-confirm-directive
 ```
 
 #### using Yarn:
 ```js
-
+yarn add vuejs-confirm-directive
 ```
 
 ### Example 1 - get confirmation, send post data and reload page
