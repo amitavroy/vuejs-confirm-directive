@@ -5,7 +5,7 @@ var VueConfirm = Vue.directive('confirm', {
     el.addEventListener('click', () => {
       var confirm = window.confirm(binding.value.message);
 
-      if (confirm === true && binding.modifiers.reload === true) {
+      if (confirm === true) {
         var data = {};
 
         if (binding.value.data != null && binding.value.data != '') {
