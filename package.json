@@ -1,0 +1,25 @@
+{
+  "name": "vuejs-confirm-directive",
+  "version": "1.0.0",
+  "description": "A Vue.js directive which will allow to get user confirmation before any action",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "vue": "^2.5.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amitavroy/vuejs-confirm-directive.git"
+  },
+  "keywords": [
+    "vuejs", "vue-confirm", "vue directive"
+  ],
+  "author": "Amitav Roy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amitavroy/vuejs-confirm-directive/issues"
+  },
+  "homepage": "https://github.com/amitavroy/vuejs-confirm-directive#readme"
+}
