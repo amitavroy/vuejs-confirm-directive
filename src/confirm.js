@@ -1,4 +1,5 @@
 import Vue from 'vue';
+import axios from 'axios';
 
 var VueConfirm = Vue.directive('confirm', {
   inserted(el, binding) {
@@ -12,7 +13,7 @@ var VueConfirm = Vue.directive('confirm', {
           data = binding.value.data;
         }
 
-        window.axios.post(binding.value.link, data).then(response => {
+        axios.post(binding.value.link, data).then(response => {
           if (binding.modifiers.reload && binding.modifiers.reload === true) {
             location.reload();
           } else {

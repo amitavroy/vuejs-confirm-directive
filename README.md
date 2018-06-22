@@ -35,3 +35,13 @@ yarn add vuejs-confirm-directive
     callback: functionToHandleCallback
 }"></button>
 ```
+
+## Options / attributes to send with the directive
+Below is a list of attributes that you can send and what that does.
+
+| Props | Type | Optional | Options |
+| ----- | ---- | -------- | ------- |
+| link | String | required | any valid url
+| message | String | required | custom message
+| data | Object | optional | payload to the post url
+| callback | function | optional | function or name of function
