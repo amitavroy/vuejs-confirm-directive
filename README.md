@@ -36,6 +36,16 @@ yarn add vuejs-confirm-directive
 }"></button>
 ```
 
+### Example 3 - get confirmation, and do nothing
+```
+<button v-confirm="{
+    link: 'your-url-comes-here',
+    message: 'Your custom message comes here',
+    data: {name: 'Custom directive', short: 'v-confirm'},
+    callback: null
+}"></button>
+```
+
 ## Options / attributes to send with the directive
 Below is a list of attributes that you can send and what that does.
 
@@ -45,3 +55,7 @@ Below is a list of attributes that you can send and what that does.
 | message | String | required | custom message
 | data | Object | optional | payload to the post url
 | callback | function | optional | function or name of function
+
+**NOTE:** When the reload modifier is not provided, a callback function is
+required. If, for any situation you don't want to handle the confirm of user
+(which I feel is a rare case) pass null or false to the callback property.
