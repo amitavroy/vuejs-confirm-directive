@@ -1,6 +1,6 @@
 {
   "name": "vuejs-confirm-directive",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "A Vue.js directive which will allow to get user confirmation before any action",
   "main": "index.js",
   "scripts": {

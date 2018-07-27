@@ -17,6 +17,14 @@ npm i vuejs-confirm-directive
 yarn add vuejs-confirm-directive
 ```
 
+## Usage
+You can do a require in your main js and then use the directive anywhere in the
+application.
+
+```
+require('vuejs-confirm-directive');
+```
+
 ### Example 1 - get confirmation, send post data and reload page
 ```
 <button v-confirm.reload="{
